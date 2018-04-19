@@ -1,5 +1,5 @@
-from data_loader import DataGenerator
-from model.keras_model import ED_TCN
+from data_loader.tcn_data_loader import DataGenerator
+from models.keras_model import ED_TCN
 from trainers.trainer import EDTCNTrainer
 
 
