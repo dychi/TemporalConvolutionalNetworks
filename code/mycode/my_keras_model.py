@@ -39,7 +39,7 @@ def ED_TCN(n_nodes, conv_len, n_classes, n_feat, max_len,
             return_param_str=False):
     n_layers = len(n_nodes)
 
-    inputs = Input(shape=(max_len,n_feat)) # 期待される入力ベクトルが(max_len, n_feat)のバッチ。バッチサイズは含まれない
+    inputs = Input(shape=(max_len,n_feat)) # 期待される入力ベクトルが(max_len, n_feat)のバッチ。バッチサイズは含まれない(552,128)
     model = inputs
 
     # ---- Encoder ----

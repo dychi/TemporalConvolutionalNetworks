@@ -121,7 +121,7 @@ if 1:
             Y_train = [np_utils.to_categorical(y, n_classes) for y in y_train]
             Y_test = [np_utils.to_categorical(y, n_classes) for y in y_test]
 
-            # In order process batches simultaneously, all data needs to be of the same length
+            # In order process batches simultaneously all data needs to be of the same length
             # So make all same length and mask out the ends of each.
             n_layers = len(n_nodes)
             max_len = max(np.max(train_lengths), np.max(test_lengths))
