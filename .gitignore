@@ -1,0 +1,9 @@
+.swp
+
+# datasets
+datasets/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+
